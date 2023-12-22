@@ -1,4 +1,4 @@
-## Foundry
+## Foundry Fund Me Practice
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -48,7 +48,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/DeployFundMe.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
 ### Cast
